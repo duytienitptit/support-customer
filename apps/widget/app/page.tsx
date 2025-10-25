@@ -10,7 +10,7 @@ export default function Page() {
 
   return (
     <div className='flex items-center justify-center min-h-svh'>
-      <p>app/web</p>
+      <p>app/widget</p>
       <Button onClick={() => addUser({ name: 'New User' })}>Add</Button>
       <pre>{JSON.stringify(users, null, 2)}</pre>
     </div>
